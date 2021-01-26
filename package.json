@@ -1,0 +1,26 @@
+{
+  "name": "bilibili-login",
+  "version": "0.0.1",
+  "description": "命令行程序，登录 B 站，获取 Cookies。",
+  "bin": "src/cli.js",
+  "main": "src/login.js",
+  "repository": "https://github.com/ouuan/bilibili-login",
+  "author": "Yufan You <ouuansteve@gmail.com> (https://github.com/ouuan)",
+  "license": "Apache-2.0",
+  "scripts": {
+    "lint": "eslint src --ext js --fix",
+    "start": "node src/cli.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "neodoc": "^2.0.2",
+    "open": "^7.3.1",
+    "qs": "^6.9.6",
+    "server": "^1.0.31"
+  },
+  "devDependencies": {
+    "eslint": "^7.18.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}

@@ -1,0 +1,3 @@
+[submodule "geetest-validator"]
+	path = geetest-validator
+	url = https://github.com/ouuan/geetest-validator.git
